@@ -1,0 +1,578 @@
+/*home page*/
+.container .logoo{
+    float: left; 
+}
+.list{
+  float: left;
+}
+.list ul {
+  list-style-type: none;
+  padding: 0;
+  width: 400px;
+}
+.list li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color:#002b5c;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:bold;
+  font-family: sans-serif;
+
+  border-radius: 8px;
+}
+.main{
+    background-color:#004080;
+    height: 250px;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main-text h4{
+  margin-left: 10px;
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1.6em;
+    padding-top: 20px;
+    
+}
+
+.main-text p{
+  margin-left: 10px;
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 15px;    
+}
+.main-text2 h4{
+  margin-left: 10px;
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1.6em;
+    padding-top: 20px;
+
+}
+
+.main-text2 p{
+  margin-left: 10px;
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 15px;    
+}
+ .hero-section{
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr ;
+  margin-left: 150px;
+ }
+  .hero-section .card-title{
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.hero-section .card-body{
+    margin-bottom: 30px;
+ }
+.hero-section .card-text  {
+  font-size: 20px;
+    font-family: sans-serif;
+ }
+.hero-section img{
+  border: none;
+  border-radius: 8px;
+  height:300px;
+  width: 300px;
+         }
+ .hero-section a{
+    background-color:#004080;
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: sans-serif;
+        }
+a:hover{
+ color: violet;
+  }
+ #one{
+  font-weight: bolder;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 600px;
+}   
+
+
+/* about page */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url('https://images.unsplash.com/photo-1588072432836-e10032774350')
+  no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.about-section {
+  background-color: #ffffff;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.mission-vision {
+  background-color: #eef2f7;
+}
+
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.box {
+  flex: 1;
+  min-width: 280px;
+}
+
+.box h3 {
+  color: #00264d;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 1rem;
+}
+
+
+.footer .containerss {
+  background-color: #00264d;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.footer .containerss a {
+  color: #aad4ff;
+  text-decoration: none;
+}
+
+
+
+/*blog page*/
+a {
+  text-decoration: none;
+  color: #0056b3;
+}
+.jumbotron {
+  background: url('bg.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+}
+.jumbotron h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.jumbotron p {
+  font-size: 1.2rem;
+}
+
+.main-content {
+  display: flex;
+  margin: 60px auto;
+  gap: 30px;
+}
+.content {
+  flex: 2;
+}
+.blog-card {
+  margin-left: 30px;
+  align-items: center;
+  background: #fff;
+  width: 400px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.blog-card img {
+  width: 400px;
+  height: 250px;
+}
+.content .card-body {
+  padding: 20px;
+}
+.content .card-title {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  color: #002b5c;
+}
+.content .card-text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.read-more {
+  display: inline-block;
+  background-color: #002b5c;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.read-more:hover {
+  background-color: #004080;
+}
+
+
+.sidebar {
+  flex: 1;
+  margin-top: 40px;
+}
+.sidebar-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  height:300px;
+}
+.sidebar-section h4 {
+  color: #002b5c;
+  margin-bottom: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+.sidebar-section ul {
+  list-style: none;
+}
+.sidebar-section li {
+  list-style-type:square;
+  margin-bottom: 10px;
+}
+.sidebar-section a {
+  color: #0056b3;
+}
+.sidebar-section a:hover {
+  text-decoration: underline;
+}
+
+
+.footer .container {
+  background-color: #002b5c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+
+
+/* contact page*/
+
+.jumbotrons {
+  background: url('horse.jpg') no-repeat center center/cover;
+  text-align: center;
+  font-family: cursive;
+  padding: 100px 20px;
+}
+.jumbotrons h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.jumbotrons p {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  padding: 60px 0;
+}
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cards{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form h3 {
+  color: #002b5c;
+  margin-bottom: 20px;
+}
+.contact-form form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form button {
+  margin-top: 20px;
+  background-color: #002b5c;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #004080;
+}
+
+
+.contact-info h3 {
+  color: #002b5c;
+  margin-bottom: 20px;
+}
+.contact-info p {
+  margin-bottom: 10px;
+}
+.contact-info hr {
+  margin: 20px 0;
+  border: 0;
+  height: 1px;
+  background: #ccc;
+}
+
+.footer {
+  background-color: #002b5c;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+.footer a {
+  color: #aad4ff;
+}
+
+.student{
+  background-color: #aad4ff;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+/* Facultypage */
+
+.faculty-section {
+  padding: 3em 2em;
+  background-color: #fff;
+  text-align: center;
+}
+
+.faculty-section h2 {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  color: #004080;
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2em;
+  padding: 0 1em;
+}
+
+.faculty-card {
+  background: #f0f4f8;
+  border-radius: 10px;
+  padding: 1.5em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.faculty-card:hover {
+  transform: translateY(-5px);
+}
+
+.faculty-card img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.faculty-card h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: #004080;}
+
+
+  .faculty-card p {
+  color: #666;
+  font-size: 0.95em;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+
+
+/* school activities page*/
+
+.School-section {
+  padding: 3em 2em;
+  background-color: #fff;
+  text-align: center;
+}
+
+.School-section h2 {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  color: #004080;
+}
+
+.School-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2em;
+  padding: 0 1em;
+}
+
+.School-card {
+  background:#aad5ff89;
+  border-radius: 10px;
+  padding: 1.5em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.School-card:hover {
+  transform: translateY(-5px);
+}
+
+.School-card h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: #004080;}
+
+
+  .School-card p {
+  color: #666;
+  font-size: 0.95em;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+
+
+  @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list {
+    justify-content: flex-start;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .main{
+    height: 520px;
+    width: 400px;
+    padding-left: 30px;
+    margin-left: 150px;
+  }
+  .main-text, .main-text2 {
+    text-align: center;
+    margin-left: 0;
+  }
+  #one{
+    margin-left: 100px;
+  }
+  .card-body{
+    gap: 200px;
+  }
+  .main-text h4, .main-text2 h4,
+  .main-text p, .main-text2 p {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .list{
+    margin-left: 50px;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+
+  .sidebar {
+    margin-top: 20px;
+  }
+
+  .footer, .footer .container, .footer .containerss {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+}
